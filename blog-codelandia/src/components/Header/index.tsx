@@ -5,7 +5,7 @@ export function Header() {
     <HeaderWrapper>
       <TopHeader>
         <h1>Codelândia</h1>
-        <h2>Blog</h2>
+        <h2>blog</h2>
       </TopHeader>
       <Search>
         <MagnifyingGlass size={30} weight="thin" />
