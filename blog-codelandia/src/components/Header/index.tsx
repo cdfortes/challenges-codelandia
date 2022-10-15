@@ -1,5 +1,6 @@
-import { HeaderWrapper, Search, TopHeader } from './styles'
-import { MagnifyingGlass } from 'phosphor-react'
+import { Search } from '../Search'
+import { HeaderWrapper, TopHeader } from './styles'
+
 export function Header() {
   return (
     <HeaderWrapper>
@@ -7,15 +8,7 @@ export function Header() {
         <h1>Codelândia</h1>
         <h2>blog</h2>
       </TopHeader>
-      <Search>
-        <MagnifyingGlass size={30} weight="thin" />
-        <input
-          type="search"
-          name="search"
-          id="search"
-          placeholder="Pesquisar no blog"
-        />
-      </Search>
+      <Search />
     </HeaderWrapper>
   )
 }
