@@ -8,9 +8,14 @@ export const CardContainer = styled.section`
   border-radius: 5px;
   padding: 2.4rem;
   margin: 5rem auto;
+  transition: 0.3s linear;
   :hover {
     box-shadow: 0 0 0 2px ${(props) => props.theme['blue-500']};
     cursor: pointer;
+
+    h3 {
+      color: ${(props) => props.theme['blue-500']};
+    }
   }
 `
 

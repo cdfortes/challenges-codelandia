@@ -1,11 +1,10 @@
 import { ThemeProvider } from 'styled-components'
 import { Header } from './components/Header'
 import { NewsCard } from './components/NewsCard'
+import { news } from './data/news'
 
 import { GlobalStyle } from './styles/global'
 import { defaultTheme } from './styles/theme'
-
-import { news } from './data/news'
 
 export function App() {
   return (
