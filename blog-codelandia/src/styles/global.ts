@@ -32,7 +32,10 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   main{
-    max-width: ${(props) => props.theme['container-width']};
+    width: 100%;
+   
     margin: 10rem auto ;
+    padding-left: 2rem ;
+    padding-right: 2rem ;
   }
 `
