@@ -13,5 +13,9 @@ export const FooterContainer = styled.footer`
     font-size: ${(props) => props.theme['font-sizes'].md};
     line-height: 1.9;
     font-weight: 500;
+
+    @media (max-width: 414px) {
+      font-size: ${(props) => props.theme['font-sizes'].sm};
+    }
   }
 `

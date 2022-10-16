@@ -17,6 +17,9 @@ export const ListingContainer = styled(Container)`
     line-height: 1.9;
     font-weight: 600;
     color: ${(props) => props.theme['gray-900']};
+    @media (max-width: 414px) {
+      font-size: ${(props) => props.theme['font-sizes'].xd};
+    }
   }
 
   p {
@@ -24,6 +27,10 @@ export const ListingContainer = styled(Container)`
     line-height: 1.9;
     font-weight: 500;
     color: ${(props) => props.theme['gray-400']};
+
+    @media (max-width: 414px) {
+      font-size: ${(props) => props.theme['font-sizes'].sm};
+    }
   }
 `
 
@@ -33,11 +40,16 @@ export const GridContainer = styled.div`
   gap: 1.3rem;
   margin-top: 6rem;
 
+  @media (max-width: 414px) {
+    grid-template-columns: 1fr;
+  }
+
   img {
     background-color: ${(props) => props.theme['white-200']};
     padding: 7.5rem 2.6rem;
     border-top: 1px solid transparent;
     transition: all 0.3s linear;
+    width: 100%;
 
     :hover {
       border-top: 1px solid ${(props) => props.theme['gray-900']};
