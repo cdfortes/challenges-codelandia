@@ -1,4 +1,5 @@
 import { ThemeProvider } from 'styled-components'
+import { Footer } from './components/Footer'
 import { Header } from './components/Header'
 import { ListingGrid } from './components/ListingGrid'
 import { GlobalStyle } from './styles/global'
@@ -11,6 +12,7 @@ export function App() {
 
       <Header />
       <ListingGrid />
+      <Footer />
     </ThemeProvider>
   )
 }
