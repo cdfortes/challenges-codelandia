@@ -8,6 +8,12 @@ export const defaultTheme = {
   purple: '#6C63FF',
   'purple-light': '#D7D4FF',
 
+  'card-c-red': '#FF6363',
+  'card-c-blue': '#63ECFF',
+  'card-c-pink': '#F363FF',
+  'card-c-green': '#63FF73',
+  'card-c-yellow': '#FFDD63',
+
   'body-family': 'Lato, sans-serif;',
 
   'heading-family': "'Merriweather', serif;",
