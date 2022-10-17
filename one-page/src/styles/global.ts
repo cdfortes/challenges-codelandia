@@ -39,6 +39,6 @@ export const GlobalStyle = createGlobalStyle`
 `
 
 export const Container = styled.div`
-  max-width: 123.7rem;
+  max-width: ${(props) => props.theme['container-width']};
   margin: auto;
 `
