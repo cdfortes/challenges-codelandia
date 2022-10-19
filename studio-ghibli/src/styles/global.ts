@@ -1,4 +1,4 @@
-import styled, { createGlobalStyle } from 'styled-components'
+import { createGlobalStyle } from 'styled-components'
 
 export const GlobalStyle = createGlobalStyle`
   * {
@@ -15,24 +15,20 @@ export const GlobalStyle = createGlobalStyle`
     font-size: 62.5%;
   }
   body {
-    background: ${(props) => props.theme.green};
+    background: ${(props) => props.theme['gradient-default']};
     color: ${(props) => props.theme['white-200']};
     -webkit-font-smoothing: antialiased;
+    height:90vh ;
   }
   body, input, textarea, button {
-    font-family: ${(props) => props.theme['body-family']};
+    font-family: ${(props) => props.theme['font-family']};
     font-weight: 400;
     font-size: 1.6rem;
   }
   h1, h2, h3, h4{
-    font-family: ${(props) => props.theme['body-family']};
+    font-family: ${(props) => props.theme['font-family']};
     color: ${(props) => props.theme['white-200']};
   }
 
-  
-`
 
-export const Container = styled.div`
-  max-width: ${(props) => props.theme['container-width']};
-  margin: auto;
 `
