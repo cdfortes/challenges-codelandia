@@ -5,6 +5,7 @@ export const defaultTheme = {
   blue: '#0072D2',
 
   dark: '#131318',
+  'dark-ligth': '#19191f',
 
   'font-family': 'B612, sans-serif;',
 
