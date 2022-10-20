@@ -12,7 +12,7 @@ export const defaultTheme = {
     sm: '1.6rem',
     md: '2.0rem',
     xd: '2.4rem',
-    xl: '9.6rem'
+    xl: '12.6rem'
   },
 
   'container-width': '98.0rem'
