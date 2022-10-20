@@ -19,6 +19,11 @@ export const GlobalStyle = createGlobalStyle`
     background-size: cover ;
     color: ${(props) => props.theme['white']};
     -webkit-font-smoothing: antialiased;
+
+    @media (max-width:41.4rem) {
+      background-position: center center;
+
+    }
   }
   body, input, textarea, button {
     font-family: ${(props) => props.theme['font-family']};

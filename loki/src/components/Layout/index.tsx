@@ -30,7 +30,7 @@ function Layout() {
               <Star size={40} weight="fill" />
               <Star size={40} weight="fill" />
               <Star size={40} weight="fill" />
-              <Star size={40} weight="fill" />
+              <Star size={40} weight="duotone" />
             </StarWrapper>
             <span>2021</span>
           </InfoContainer>
