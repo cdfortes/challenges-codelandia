@@ -53,6 +53,10 @@ export function Layout() {
           <Button value="Entrar" color="#04C35C" />
           <Button color="#1A202C" value="Ou faça login com o Google " />
         </form>
+
+        <p>
+          Não tem uma conta? <a href="#">Cadastre-se</a>
+        </p>
       </FormContainer>
     </LayoutContainer>
   )

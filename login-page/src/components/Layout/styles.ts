@@ -18,6 +18,10 @@ export const IllustrationContainer = styled.section`
   img {
     max-width: 40rem;
   }
+
+  @media (max-width: 41.4rem) {
+    display: none;
+  }
 `
 
 export const FormContainer = styled.section`
@@ -26,6 +30,17 @@ export const FormContainer = styled.section`
   flex-direction: column;
   justify-content: center;
   align-items: left;
+  @media (max-width: 41.4rem) {
+    width: 100%;
+  }
+
+  p {
+    text-align: center;
+    margin-top: 16.2rem;
+  }
+  a {
+    color: ${(props) => props.theme['purple-light']};
+  }
 
   form {
     margin: 4rem auto;
@@ -45,7 +60,8 @@ export const RememberContainer = styled.div`
     width: 50%;
     input[type='radio'] {
       background: ${(props) => props.theme['white-200']};
-      border: 1px solid ${(props) => props.theme['gray-200']};
+      border: 1px solid ${(props) => props.theme['white-200']};
+      color: ${(props) => props.theme['white-200']};
       width: 1.6rem;
       height: 1.6rem;
       margin-right: 1.1rem;
@@ -54,9 +70,6 @@ export const RememberContainer = styled.div`
     label {
       font-size: 14px;
     }
-  }
-  a {
-    color: ${(props) => props.theme['purple-light']};
   }
 `
 
