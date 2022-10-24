@@ -15,7 +15,7 @@ export const GlobalStyle = createGlobalStyle`
     font-size: 62.5%;
   }
   body {
-    background: url('./fon.png') ;
+    background: url('./fon.png') no-repeat ;
     background-size: cover ;
     color: ${(props) => props.theme['white']};
     -webkit-font-smoothing: antialiased;
